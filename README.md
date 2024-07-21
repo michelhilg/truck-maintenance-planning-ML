@@ -44,12 +44,12 @@ To get started with the project, please follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/maintenance-planning-optimization.git
+git clone https://github.com/michelhilg/bix-tech-test.git
 
 2. Navigate until the folder
 
 ```
-cd maintenance-planning-optimization
+cd bix-tech-test
 
 3. Set up a virtual environment:
 
