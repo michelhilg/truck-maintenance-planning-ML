@@ -28,7 +28,7 @@ maintenance-planning-optimization/
 │
 └── requirements.txt
 └── README.md
-
+```
 
 ## Folder Contents
 
@@ -45,11 +45,13 @@ To get started with the project, please follow these steps:
 
 ```
 git clone https://github.com/michelhilg/bix-tech-test.git
+```
 
 2. Navigate until the folder
 
 ```
 cd bix-tech-test
+```
 
 3. Set up a virtual environment:
 
@@ -57,11 +59,9 @@ You can use either Pienv, by:
 
 ```
 pip install -r requirements.txt
-
-Or a Conda environment:
-
 ```
 
+Or a Conda environment:
 
 
 ## Results
