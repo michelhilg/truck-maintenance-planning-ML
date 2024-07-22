@@ -69,7 +69,6 @@ conda create --name fastapi python=3.9.19
 conda activate bixtest
 pip install -r requirements.txt
 ```
-
 In both ways, you will end up with a conda env called `bixtest` with all the dependencies to run the project.
 
 ## Results
@@ -83,7 +82,11 @@ Both questions are answered in the `05_Model_Training.ipynb` notebook.
 
 
 ## Deployment
+To deploy the model, we can create a model artifact and use it to serve predictions through a Model Serving API. This API could be based on Flask or FastAPI, similar to the backbone available at:
 
+    - https://github.com/michelhilg/model-serving-flaskAPI
+    - https://github.com/michelhilg/model-serving-fastAPI
 
+This solution could run inside a Docker container and the deployment performed within the client's production environment.
 
 
