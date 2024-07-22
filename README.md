@@ -1,7 +1,7 @@
-# Maintenance Planning Optimization - Data Science Proof of Concept
+# Maintenance Planning Optimization
 
 ## Summary
-This project focuses on optimizing maintenance planning for a truck fleet by predicting air system defects. Leveraging historical maintenance data, the goal is to reduce maintenance costs associated with false negatives and prevent unnecessary inspections in false positives.
+This project focuses on building a proof of concept to optimize maintenance planning for a truck fleet by predicting air system defects. Leveraging historical maintenance data, the goal is to reduce maintenance costs associated with false negatives and prevent unnecessary inspections in false positives.
 
 
 ## Project Goals
@@ -12,10 +12,10 @@ The main requirements for this proof of concept are:
 
 
 ## Project Structure
-The project follows the basic cookie cutter structure, since we have a simple Proof of Concept, will be  a very straighfoward definiton:
+The project follows the basic cookie-cutter structure. Since we have a simple proof of concept, it will be a very straightforward definition:
 
 ```
-maintenance-planning-optimization/
+bix-tech-test/
 │
 ├── data/
 │   ├── air_system_present_year.csv
@@ -62,13 +62,14 @@ conda env create -f environment.yml
 conda activate bixtest
 ```
 
-This file was created using a MacOs env, so if you face problems you can also use: 
+The `.env` file was created on a macOS environment, so if you encounter problems, you can also use:
 
 ```
 conda create --name fastapi python=3.9.19
 conda activate bixtest
 pip install -r requirements.txt
 ```
+
 In both ways, you will end up with a conda env called `bixtest` with all the dependencies to run the project.
 
 
@@ -79,7 +80,7 @@ The results of this proof of concept will address the following:
 
 - **Factors Indicating Potential Failures:** Identify the key factors that are indicative of potential air system failures in the trucks.
 
-Both questions are answered in the `05_Model_Training.ipynb` notebook.
+Both questions are addressed in the `05_Model_Training.ipynb` notebook.
 
 
 ## Deployment
