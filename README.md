@@ -62,7 +62,7 @@ conda env create -f environment.yml
 conda activate bixtest
 ```
 
-Or 
+This file was created using a MacOs env, so if you face problems you can also use: 
 
 ```
 conda create --name fastapi python=3.9.19
