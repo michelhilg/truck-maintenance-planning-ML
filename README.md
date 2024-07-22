@@ -65,7 +65,7 @@ conda activate bixtest
 The `.env` file was created on a macOS environment, so if you encounter problems, you can also use:
 
 ```
-conda create --name fastapi python=3.9.19
+conda create --name bixtest python=3.9.19
 conda activate bixtest
 pip install -r requirements.txt
 ```
