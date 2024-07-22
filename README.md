@@ -71,6 +71,7 @@ pip install -r requirements.txt
 ```
 In both ways, you will end up with a conda env called `bixtest` with all the dependencies to run the project.
 
+
 ## Results
 The results of this proof of concept will address the following:
 
