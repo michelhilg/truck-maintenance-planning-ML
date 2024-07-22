@@ -55,14 +55,22 @@ cd bix-tech-test
 
 3. Set up a virtual environment:
 
-You can use either Pienv, by:
+Here you can create a conda environment using:
 
 ```
+conda env create -f environment.yml
+conda activate bixtest
+```
+
+Or 
+
+```
+conda create --name fastapi python=3.9.19
+conda activate bixtest
 pip install -r requirements.txt
 ```
 
-Or a Conda environment:
-
+In both ways, you will end up with a conda env called `bixtest` with all the dependencies to run the project.
 
 ## Results
 The results of this proof of concept will address the following:
